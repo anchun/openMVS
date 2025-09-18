@@ -17,6 +17,7 @@ See the complete [documentation](https://github.com/cdcseacave/openMVS/wiki) on 
 
 See the [building](https://github.com/cdcseacave/openMVS/wiki/Building) wiki page. Windows, Ubuntu and MacOS x64 continuous integration status [![Continuous Integration](https://github.com/cdcseacave/openMVS/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/cdcseacave/openMVS/actions/workflows/continuous_integration.yml)
 Automatic Windows x64 binary builds can be found for each commit on its Artifacts page.
+**install boost from src; download latest cgal and vcg lib; and build with: cmake .. -DVCG_ROOT=~/src/vcglib -DCGAL_DIR=~/src/cgal
 
 ## Example
 
